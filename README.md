@@ -13,6 +13,7 @@ I used PostgreSQL to audit and prepare the data, built a three-page Power BI rep
 - **[View the report — PDF](reports/AdventureWorks.pdf)** — all three pages, no Power BI installation required.
 - [Technical documentation](docs/AdventureWorks_full.md) — methodology, DAX measures, findings and recorded validation results.
 - [SQL scripts](sql/) — data preparation, audits and report validation.
+- [Download the Power BI report](reports/AdventureWorks.pbix) — requires Power BI Desktop.
 
 ## Business questions
 
@@ -75,7 +76,7 @@ The course materials use the AdventureWorksDW2022 project heading, but the preci
 
 The PDF provides a static preview of the report. Interactive filtering was implemented in Power BI but is not available in the PDF.
 
-Source CSVs and the Power BI `.pbix` file are not included in this repository while redistribution terms for the supplied dataset remain unconfirmed.
+The Power BI file includes the imported dataset. The original source CSVs are not included separately. Refreshing the report requires access to the source data and updating the data-source settings for your environment.
 
 To reproduce the SQL workflow, obtain the same source CSVs, run script 01, import the files into their corresponding raw tables, and then work through scripts 02–05. Inspect audit results and resolve any issues before proceeding to type conversions.
 
