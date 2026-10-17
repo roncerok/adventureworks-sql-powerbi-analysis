@@ -4,7 +4,7 @@
 
 By Kristian Roncero
 
-An end-to-end course project exploring sales growth, product profitability, market concentration and buyer profiles for the fictional AdventureWorks business.
+An end-to-end data-analysis course project exploring sales growth, product profitability, market concentration and buyer profiles for the fictional AdventureWorks business.
 
 I used PostgreSQL to audit and prepare the data, built a three-page Power BI report, and validated selected report results with SQL.
 
